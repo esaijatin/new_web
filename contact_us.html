@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="contact_us.css" />
+  <title>Contact Us - Mom Pharmacy</title>
+</head>
+<body>
+
+  <!-- Logo Image -->
+  <header>
+    <img src="mom.png" alt="Mom Pharmacy Logo" class="logo" />
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a class="active" href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+      <!-- Contact Form -->
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Suggestion" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <!-- Map Section -->
+      <div id="map"></div>
+    </div>
+  </div>
+
+<div>
+  
+</div>
+
+<div style="background: #333; color: white; padding: 20px; display:flex; justify-content: flex-end; gap: 10px;">
+  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+    <img src="/Users/jatineppili/Downloads/mom.png" alt="Instagram" style="height: 40px; width: 40px;">
+  </a>
+  <img src="/Users/jatineppili/Downloads/mom.png" height="10%" width="2%">
+  <img src="/Users/jatineppili/Downloads/mom.png" height="100%" width="2%">
+  <img src="/Users/jatineppili/Downloads/mom.png" height="2%" width="2%">
+</div>
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
